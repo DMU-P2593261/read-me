@@ -51,7 +51,7 @@ html {
 /*PARAGRAPH*/
 .paragraph {
   font-family: 'Poppins', sans-serif;
-  padding: 0px;
+  padding: 10px;
   margin: 10px;
   text-align: left;
 }
