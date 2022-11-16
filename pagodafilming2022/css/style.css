@@ -9,6 +9,10 @@
   box-sizing: border-box; /*causes less issues with other code*/
 }
 
+a:link { /*colour of nav links before being highlighted by a cursor*/
+  list-style: none;
+  color: #6495ED;
+}
 
 a:link, a:visited { /*colour of nav links before being highlighted by a cursor*/
   list-style: none;
