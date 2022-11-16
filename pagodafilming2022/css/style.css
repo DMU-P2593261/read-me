@@ -4,22 +4,22 @@
 
 
 * {
-  margin: 0px; /*removes all default margin rules*/
-  padding: 0px; /*removes all default padding rules*/
-  box-sizing: border-box; /*causes less issues with other code*/
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box; 
 }
 
-a:link { /*colour of nav links before being highlighted by a cursor*/
+a:link { 
   list-style: none;
   color: #6495ED;
 }
 
-a:link, a:visited { /*colour of nav links before being highlighted by a cursor*/
+a:link, a:visited { 
   list-style: none;
   color: #6495ED;
 }
 
-a:hover { /*colour of nav links after being highlighted by a cursor*/
+a:hover { 
   color: black;
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 html {
-  scroll-behavior: smooth; /*allows all automatic scrolling to be smooth instead of instant therefore creating a less flat feel to the page and making the site feel more natural and smooth*/
+  scroll-behavior: smooth; 
 }
 
 /*////////////*//*///////////*//*///////////*/
@@ -48,31 +48,10 @@ html {
 }
 
 
-/*PARAGRAPH 1*/
+/*PARAGRAPH*/
 .paragraph {
   font-family: 'Poppins', sans-serif;
   padding: 10px;
   margin: 10px;
   text-align: left;
-}
-
-/*////////////*//*///////////*//*///////////*/
-/*///////////*//*FOOTER CSS*//*///////////*/
-/*///////////*//*///////////*//*///////////*/
-.footerText {
-  font-family: 'Poppins', sans-serif;
-  padding: 10px;
-  text-align: center;
-  background-color: DodgerBlue;
-  min-height: 8vh; /*minimum height from the top of the page measured in viewport height */
-  z-index: 0;
-  background-color: #5E9FF2;
-}
-
-
-/*FOOTER LINKS*/
-.footerLinks {
-  text-decoration: none;
-  font-size: 12px;
-  z-index: 0;
 }
